@@ -1,0 +1,190 @@
+html {
+    height: 99%; 
+    }
+    
+* { margin:0; padding:0; }
+
+BODY {background: #ffffff url(#) repeat ;
+		margin:0px; padding:0px;
+		font-family:arial;
+		height: 99%;
+	} 
+
+    .button img{ border: 0px solid white ; }
+    .button:hover img{ border: 0px solid #BBBBBB ; filter:alpha(opacity=80); opacity:.8;}
+    .button:hover{ color: #BBBBBB ; /* Dummy definition to overcome IE bug */ }
+
+	a:link, a:visited, a:active { color:gray ; text-decoration:none ; }
+	a:hover { color:black ; text-decoration:none ; }
+
+	
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  /* some CSS here */
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  /* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  /* some CSS here */
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  /* some CSS here */
+}
+
+
+/*----------Font--------------------------------------------------------*/
+
+	.text_s {
+	font: 10px helvetica;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+	}
+
+	.text_m {
+	font: 13px helvetica;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+	}
+	
+	.text_l {
+	font: 18px Arial;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+	}
+	
+
+
+/*----------BackGround--------------------------------------------------------*/
+
+	#bg_grid {
+	position:fixed; /* This is very important! */
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background: url(index_img/bg_pattern/40.png) repeat;	
+	/* Display on top of background */
+	z-index:1;
+	}
+	
+	
+/*----------TOP Logo & dropdown--------------------------------------------------------*/
+	
+
+    #container {
+	border:solid red 0px;
+    width: 100%; height:99%;
+	position: absolute; top:0px; left:0px;
+	z-index:2;
+    }
+    
+    #menu_container {
+	border:solid blue 0px;
+	position: fixed;
+	width:240px; height:240px;
+	z-index:5;
+    }
+	
+	.center_it {
+	margin:auto; position:absolute; top:0; left:0; right:0; bottom:0;
+	}	
+	
+	
+	
+/*----------------------- Menu Box  */
+
+	.menu_box {
+	position:absolute;
+	height:200px; width:200px;
+	background: url(index_img/bg_pattern/w50.png) repeat;
+	border:solid white 0px;
+	z-index:3;
+	}
+	
+	#menu_box_1 {
+	margin:50px; padding:0px;
+	top:250px; left:70%;
+	}
+	#menu_box_2 {
+	margin:50px; padding:0px;
+	top:500px; left:70%;
+	}
+	#menu_box_3 {
+	margin:50px; padding:0px;
+	top:500px; left:5%;
+	}
+	#menu_box_4 {
+	margin:50px; padding:0px;
+	top:250px; left:5%;
+	}
+	#menu_box_5 {
+	margin:50px; padding:0px;
+	top:0px; left:5%;
+	}
+	#menu_box_6 {
+	margin:50px; padding:0px;
+	top:0px; left:70%;
+	}
+
+
+
+	
+/*-------------------------- Search Box  */	
+	
+	#search_results {
+	border:solid green 0px;
+	margin:auto; position:fixed; top:0; left:0; right:0; bottom:0;
+	}
+	
+	.search_box {
+	width:200px; height:200px;
+	border: solid #D3D3D3 1px;
+	margin:0px;
+	text-align:center;
+	float: left;
+	
+	}
+	
+	#search_window {
+	position:absolute; top:80px; left:0px; 
+	width:100%; height:196px;
+	border:solid yellow 0px;
+	background: url(index_img/bg_pattern/50.png) repeat;
+	}
+	
+	#search_formbox {
+	position:absolute; top:20px; left:240px; 
+	width:60%; height:156px;
+	border:solid red 0px;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
