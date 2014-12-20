@@ -6,16 +6,12 @@
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/ua.js" type="text/javascript"></script>
 <script>
-var isIE9 = function(){
-	if(document.documentMode < 10){return true;}
-	else{return false;}
-};
-
 /**
 @description : flashcanvas
 */
-if(isIE9()){
+if(getVersion.isIE9()){
 	$('head').append('<script type=\"text\/javascript\" src=\"js\/flashcanvas\/flashcanvas.js\"><\/script>');
 }
 </script>

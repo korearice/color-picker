@@ -3,7 +3,7 @@
 @description : Check MSIE Document mode
 */
 
-if(isIE9()){
+if(getVersion.isIE9()){
 	$('head').append('<script type=\"text\/javascript\" src=\"js\/filetodata\/swfobject\/swfobject.js\"><\/script>');
 	$('head').append('<script type=\"text\/javascript\" src=\"js\/fileupload_ie.js\"><\/script>');
 }
